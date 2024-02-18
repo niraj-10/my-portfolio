@@ -1,21 +1,25 @@
 .navbar{
-    height: 50px;
-    margin: auto;
+   
+    position: fixed;
+    max-width: 1500px;
+    top: 0;
+    right: 0;
+     left: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: center;
-    max-width: 1500px;
-    position: sticky;
+    justify-content: space-between;
+    padding: 20px 12%;
 
 
     .title{
-        width: 20%;
         font-weight: bold;
         font-size: 16px;
-
+        align-items: center;
     }
 
     .nav{
+        justify-content: right;     
         display: flex;
         gap: 30px;
         font-size: 14px;
